@@ -603,7 +603,12 @@ footer span a:hover{
 
 /* responsive media query start */
 @media (max-width: 1104px) {
-    .about .about-content .left img{
+    .about .about-content .left img {
+        height: 350px;
+        width: 350px;
+    }
+
+    .project1 .project1-content .left img{
         height: 350px;
         width: 350px;
     }
@@ -677,6 +682,17 @@ footer span a:hover{
         width: 100%;
         margin-bottom: 35px;
     }
+    .project1 .project1-content .column{
+        width: 100%;
+    }
+    .project1 .project1-content .left{
+        display: flex;
+        justify-content: center;
+        margin: 0 auto 60px;
+    }
+    .project1 .project1-content .right{
+        flex: 100%;
+    }
 }
 
 @media (max-width: 690px) {
@@ -704,7 +720,7 @@ footer span a:hover{
     .home .home-content .text-3{
         font-size: 27px;
     }
-    .about .about-content .right .text,
+    .about .about-content .right .text, .project1 .project1-content .right .text
     .skills .skills-content .left .text{
         font-size: 19px;
     }
