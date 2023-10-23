@@ -35,10 +35,10 @@ section{
     padding: 0 80px;
     margin: auto;
 }
-.about, .project1, .services, .skills, .teams, .contact, footer{
+.about, .project1, .project2, .services, .skills, .teams, .contact, footer{
     font-family: 'Poppins', sans-serif;
 }
-.about .about-content, .project1 .project1-content,
+.about .about-content, .project1 .project1-content, .project2 .project2-content,
 .services .serv-content,
 .skills .skills-content,
 .contact .contact-content{
@@ -441,7 +441,7 @@ section .title::after{
     background: crimson!important;
 }
 
-/*Project details*/
+/*Project1 details*/
 .project1 .title::after{
     content: "Ecommerece Website";
 }
@@ -481,6 +481,50 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .project1 .project1-content .right a:hover{
+    color: crimson;
+    background: none;
+}
+
+/* PROJECT2 */
+.project2 .title::after{
+    content: "SKIN SHADES PREDICTION";
+}
+.project2 .project2-content .left{
+    width: 45%;
+}
+.project2 .project2-content .left img{
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+.project2 .project2-content .right{
+    width: 55%;
+}
+.project2 .project2-content .right .text{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.project2 .project2-content .right .text span{
+    color: crimson;
+}
+.project2 .project2-content .right p{
+    text-align: justify;
+}
+.project2 .project2-content .right a{
+    display: inline-block;
+    background: crimson;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+}
+.project2 .project2-content .right a:hover{
     color: crimson;
     background: none;
 }
@@ -693,6 +737,18 @@ footer span a:hover{
     .project1 .project1-content .right{
         flex: 100%;
     }
+
+    .project12-content .column{
+        width: 100%;
+    }
+    .project2 .project2-content .left{
+        display: flex;
+        justify-content: center;
+        margin: 0 auto 60px;
+    }
+    .project2 .project2-content .right{
+        flex: 100%;
+    }
 }
 
 @media (max-width: 690px) {
@@ -720,7 +776,7 @@ footer span a:hover{
     .home .home-content .text-3{
         font-size: 27px;
     }
-    .about .about-content .right .text, .project1 .project1-content .right .text
+    .about .about-content .right .text, .project1 .project1-content .right .text ,.project2 .project2-content .right .text,
     .skills .skills-content .left .text{
         font-size: 19px;
     }
