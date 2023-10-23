@@ -35,10 +35,10 @@ section{
     padding: 0 80px;
     margin: auto;
 }
-.about, .services, .skills, .teams, .contact, footer{
+.about, .project1, .services, .skills, .teams, .contact, footer{
     font-family: 'Poppins', sans-serif;
 }
-.about .about-content,
+.about .about-content, .project1 .project1-content,
 .services .serv-content,
 .skills .skills-content,
 .contact .contact-content{
@@ -441,9 +441,58 @@ section .title::after{
     background: crimson!important;
 }
 
+/*Project details*/
+.project1 .title::after{
+    content: "Ecommerece Website";
+}
+.project1 .project1-content .left{
+    width: 45%;
+}
+.project1 .project1-content .left img{
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+.project1 .project1-content .right{
+    width: 55%;
+}
+.project1 .project1-content .right .text{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.project1 .project1-content .right .text span{
+    color: crimson;
+}
+.project1 .project1-content .right p{
+    text-align: justify;
+}
+.project1 .project1-content .right a{
+    display: inline-block;
+    background: crimson;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+}
+.project1 .project1-content .right a:hover{
+    color: crimson;
+    background: none;
+}
+
 /* contact section styling */
+.contact{
+    background-color: #000000;
+    color: #fff;
+}
 .contact .title::after{
     content: "get in touch";
+    background: #000000;
 }
 .contact .contact-content .column{
     width: calc(50% - 30px);
@@ -518,7 +567,7 @@ section .title::after{
   align-items: center;
 }
 .right form .button-area button{
-  color: #fff;
+  color: #000000;
   display: block;
   width: 160px!important;
   height: 45px;
