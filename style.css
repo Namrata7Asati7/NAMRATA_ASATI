@@ -35,7 +35,7 @@ section{
     padding: 0 80px;
     margin: auto;
 }
-.about, .project1, .project2, .project3,.project4, .project5, .project6,.project7, .services, .skills, .teams, .contact, footer{
+.about, .project1, .project2, .project3,.project4, .project5, .project6, .project7, .services, .skills, .teams, .contact, footer{
     font-family: 'Poppins', sans-serif;
 }
 .about .about-content, .project1 .project1-content, .project2 .project2-content, .project3 .project3-content,.project4 .project4-content, .project5 .project5-content, .project6 .project6-content, .project7 .project7-content,
@@ -1066,6 +1066,54 @@ footer span a:hover{
     .project3 .project3-content .right{
         flex: 100%;
     }
+
+    .project4-content .column{
+        width: 100%;
+    }
+    .project4 .project4-content .left{
+        display: flex;
+        justify-content: center;
+        margin: 0 auto 60px;
+    }
+    .project4 .project4-content .right{
+        flex: 100%;
+    }
+
+    .project5-content .column{
+        width: 100%;
+    }
+    .project5 .project5-content .left{
+        display: flex;
+        justify-content: center;
+        margin: 0 auto 60px;
+    }
+    .project5 .project5-content .right{
+        flex: 100%;
+    }
+
+    .project6-content .column{
+        width: 100%;
+    }
+    .project6 .project6-content .left{
+        display: flex;
+        justify-content: center;
+        margin: 0 auto 60px;
+    }
+    .project6 .project6-content .right{
+        flex: 100%;
+    }
+
+    .project7-content .column{
+        width: 100%;
+    }
+    .project7 .project7-content .left{
+        display: flex;
+        justify-content: center;
+        margin: 0 auto 60px;
+    }
+    .project7 .project7-content .right{
+        flex: 100%;
+    }
 }
 
 @media (max-width: 690px) {
@@ -1093,7 +1141,7 @@ footer span a:hover{
     .home .home-content .text-3{
         font-size: 27px;
     }
-    .about .about-content .right .text, .project1 .project1-content .right .text ,.project2 .project2-content .right .text, .project3 .project3-content .right .text ,
+    .about .about-content .right .text, .project1 .project1-content .right .text ,.project2 .project2-content .right .text, .project3 .project3-content .right .text , .project4 .project4-content .right .text ,.project5 .project5-content .right .text ,.project6 .project6-content .right .text ,.project7 .project7-content .right .text ,
     .skills .skills-content .left .text{
         font-size: 19px;
     }
